@@ -16,6 +16,7 @@
 		6D360877203BBB5F00B2C1FE /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D360876203BBB5F00B2C1FE /* QuestionsViewController.swift */; };
 		6D360879203BBB9100B2C1FE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D360878203BBB9100B2C1FE /* SettingsViewController.swift */; };
 		6D36087B2045DF4000B2C1FE /* UsersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D36087A2045DF4000B2C1FE /* UsersCell.swift */; };
+		6D36087D2047B56E00B2C1FE /* QuestionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D36087C2047B56E00B2C1FE /* QuestionsCell.swift */; };
 		6DD728EE2017BE88009BF0E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD728ED2017BE88009BF0E3 /* AppDelegate.swift */; };
 		6DD728F02017BE88009BF0E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD728EF2017BE88009BF0E3 /* ViewController.swift */; };
 		6DD728F32017BE88009BF0E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD728F12017BE88009BF0E3 /* Main.storyboard */; };
@@ -60,6 +61,7 @@
 		6D360876203BBB5F00B2C1FE /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		6D360878203BBB9100B2C1FE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		6D36087A2045DF4000B2C1FE /* UsersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCell.swift; sourceTree = "<group>"; };
+		6D36087C2047B56E00B2C1FE /* QuestionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsCell.swift; sourceTree = "<group>"; };
 		6DD728EA2017BE88009BF0E3 /* secondApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = secondApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD728ED2017BE88009BF0E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DD728EF2017BE88009BF0E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -156,20 +158,21 @@
 			isa = PBXGroup;
 			children = (
 				6DD728ED2017BE88009BF0E3 /* AppDelegate.swift */,
-				6DD728EF2017BE88009BF0E3 /* ViewController.swift */,
 				6DD728F12017BE88009BF0E3 /* Main.storyboard */,
 				6DD728F72017BE88009BF0E3 /* Assets.xcassets */,
 				6DD728F92017BE88009BF0E3 /* LaunchScreen.storyboard */,
 				6DD728FC2017BE88009BF0E3 /* Info.plist */,
 				6DD728F42017BE88009BF0E3 /* secondApp.xcdatamodeld */,
+				6DD728EF2017BE88009BF0E3 /* ViewController.swift */,
 				6D36086C2035A04B00B2C1FE /* SlideViewController.swift */,
 				6D36086E203BAB6300B2C1FE /* LeftViewController.swift */,
 				6D360870203BB76500B2C1FE /* LeftCell.swift */,
 				6D360872203BBABA00B2C1FE /* PlansViewController.swift */,
 				6D360874203BBB2300B2C1FE /* UsersViewController.swift */,
-				6D360876203BBB5F00B2C1FE /* QuestionsViewController.swift */,
-				6D360878203BBB9100B2C1FE /* SettingsViewController.swift */,
 				6D36087A2045DF4000B2C1FE /* UsersCell.swift */,
+				6D360876203BBB5F00B2C1FE /* QuestionsViewController.swift */,
+				6D36087C2047B56E00B2C1FE /* QuestionsCell.swift */,
+				6D360878203BBB9100B2C1FE /* SettingsViewController.swift */,
 			);
 			path = secondApp;
 			sourceTree = "<group>";
@@ -488,6 +491,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D360871203BB76500B2C1FE /* LeftCell.swift in Sources */,
+				6D36087D2047B56E00B2C1FE /* QuestionsCell.swift in Sources */,
 				6D36086D2035A04B00B2C1FE /* SlideViewController.swift in Sources */,
 				6DD728F02017BE88009BF0E3 /* ViewController.swift in Sources */,
 				6D360879203BBB9100B2C1FE /* SettingsViewController.swift in Sources */,
